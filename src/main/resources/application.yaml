@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/user-management
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  security:
+    user:
+      name: serg
+      password: serg
+server:
+  port: 8080
+logging:
+  level:
+    root: INFO
+
+
